@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'de.spark61.pluginsystem'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.jetbrains:annotations:20.1.0'
+
+    compile('io.github.classgraph:classgraph:4.8.105')
+}
+
