@@ -12,6 +12,5 @@ repositories {
 dependencies {
     implementation 'org.jetbrains:annotations:20.1.0'
 
-    compile('io.github.classgraph:classgraph:4.8.105')
+    implementation 'io.github.classgraph:classgraph:4.8.105'
 }
-
