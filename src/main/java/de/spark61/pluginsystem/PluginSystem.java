@@ -88,7 +88,7 @@ public class PluginSystem {
     public void loadPlugins() throws IOException, IllegalClassFormatException {
         final File folder = new File(PluginSystem.PLUGIN_FOLDER);
         if (!folder.exists()) {
-            final boolean created = folder.createNewFile();
+            final boolean created = folder.mkdirs();
         }
 
         final File[] files = folder.listFiles();
