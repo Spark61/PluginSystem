@@ -17,11 +17,9 @@ jobs:
 
           # Options
           user: Spark61
-          template: classic
-          base: header, activity, community, repositories, metadata
+          repo: PluginSystem
+          template: repository
+          base: ""
           config_timezone: Europe/Berlin
-          plugin_contributors: yes
-          plugin_contributors_head: master
-          plugin_contributors_ignored: github-actions[bot], dependabot[bot], dependabot-preview[bot]
           plugin_licenses: yes
           plugin_licenses_legal: yes
